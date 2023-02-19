@@ -1,9 +1,9 @@
 # 1
-def Contacts(name, last_name, age):
+def contacts(name, last_name, age):
     age = int(age) 
     print(f'hello my name is {name}, my last name is {last_name}, I am {age} years old:')
 
-Contacts("Vardan" , "Vardanyan" , 20)
+contacts("Vardan" , "Vardanyan" , 20)
 
 # 2
 def change_the_letter(text, old_character, new_chararcter):
@@ -18,14 +18,14 @@ def change_the_letter(text, old_character, new_chararcter):
 print(change_the_letter(text = " " , old_character=" " , new_chararcter= " "))
 
 # 3
-def creat_a_file(list_of_texts , file_name = "text.txt"):
+def create_a_file(list_of_texts , file_name = "text.txt"):
     with open(file_name , "w+") as file:
         file.write(list_of_texts)
 
-creat_a_file(list_of_texts="Hello World")
+create_a_file(list_of_texts="Hello World")
 
 # 4
-def Prime_number(number):
+def prime_number(number):
     number = int(number)
     if number > 1:
         for x in range(2, number):
@@ -38,7 +38,7 @@ def Prime_number(number):
     else:
         print(f"number {number} is not prime")        
 
-Prime_number(number = 7)
+prime_number(number = 7)
 
 # ---- Research ----
 def f1(x , y):
