@@ -7,8 +7,3 @@ elif sys.argv[1] == "tuple":
     print(tuple(users))
 elif sys.argv[1] == "set":
     print(set(users))
-    
-
-
-
-
